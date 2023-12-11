@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(211, 98, 120);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: rgb(202, 123, 138);
+    width: 500px;
+    height: 350px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: rgb(224, 48, 83);
+    border: 2px solid crimson;
+    border-radius: 15px;
+}
+.container h1{
+    color: crimson;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.container textarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    outline: none;
+    padding: 10px;
+    border: 2px solid crimson;
+    transition: border .1.5s;
+    margin-bottom: 22px;
+    text-transform: capitalize;
+    resize: none;
+}
+.container textarea:focus{
+    border: 2px solid rgb(199, 105, 122);
+}
+.container button{
+    display: inline-block;
+    width: 150px;
+    height: 49px;
+    background-color: crimson;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .1.5s;
+    border-radius: 9px;
+}
+.container button:hover{
+    background-color: rgb(199, 105, 122);
+    color: crimson;
+    border: 2px solid crimson;
+}
